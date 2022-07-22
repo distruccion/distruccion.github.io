@@ -1,2 +1,2 @@
 # distruccion.github.io
-sitio web de distrucción: diseño y construcción integral
+Sitio web de distrucción: diseño y construcción integral
