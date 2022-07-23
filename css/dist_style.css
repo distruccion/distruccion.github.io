@@ -47,7 +47,7 @@ a {
     position: relative;
     height: 40px;
     z-index: 3;
-    padding-right: 40px;
+    padding-right: 45px;
     transition: .3s ;
 }
 
@@ -89,7 +89,7 @@ a {
     align-content: center;
     gap: 10%;
     padding-top: 30%;
-    padding-right: 25%;
+    padding-right: 35%;
     padding-bottom: 65%;
     text-align: right;
     transform: var(--state-menu);
@@ -283,9 +283,10 @@ a {
     display: grid;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    padding: 10px 15px;
+    margin: auto;
+    padding: 9px 15px;
     font-size:12px;
+    max-width: 745px;
 }
 
 .footer_container {
@@ -301,9 +302,9 @@ a {
 }
 
 .footer_container p {
-    padding: 0px 15px;
+    padding: 0px 10px;
     text-align: center;
-    max-width: 450px;
+    max-width: 435px;
 }
 
 .social {
@@ -311,13 +312,13 @@ a {
     display: flex;
     justify-content: flex-end;
     /*gap: 15px;*/
-    padding: 14px 15px;
+    padding: 14px 12px;
 }
 .social a {
     color: #688ce9;
     text-decoration: none;
     transition: color .15s;
-    margin: 0 10px;
+    margin: 0 8px;
 }
 
 .social a:hover {
@@ -349,9 +350,10 @@ a {
     
     .nav__links{
         padding: 0;
+    
         background-color: unset;
         position: unset;
-        gap: 1.2em;
+        gap: 1.6em;
         grid-auto-flow: column;
     
         transform: unset;
@@ -373,7 +375,6 @@ a {
     .acento{
         visibility: unset;
         max-width: 50px;
-        margin-left: 10px;
     }
     
     .slider_container{
