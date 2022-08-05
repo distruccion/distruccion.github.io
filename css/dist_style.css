@@ -8,6 +8,10 @@
 body{
     font-family: 'Questrial', sans-serif;
     background-color: #fff;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -18,7 +22,6 @@ a {
     margin: 0 auto;
     width: 100%;
     overflow: hidden;
-    background-color: #fff;
 }
 
 .nav{
@@ -31,7 +34,7 @@ a {
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(2, max-content);
-    position: fixed;
+    position: sticky;
     top: 0;
     box-shadow: 0px  1px 9px #0001;
     z-index: 3;
@@ -135,11 +138,6 @@ a {
 
 .acento{
     visibility: hidden;
-    position: absolute;
-    top: 0;
-    height: 50px;
-    width: 3px;
-    background-color: #460be6;
 }
 
 /*silder*/
@@ -150,8 +148,8 @@ a {
     max-width: 650px;
     margin: 0 auto;
     overflow: hidden;
-    padding-top: 80px;
-    padding-bottom: 60px;
+    /*padding-top: 80px;*/
+    /*padding-bottom: 60px;*/
 }
 
 .container_cons{
@@ -161,13 +159,11 @@ a {
     max-width: 400px;
     margin: 0 auto;
     overflow: hidden;
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding: 9vh 0;
 }
 
 .slider{
-    background-color: #fff;
-    padding: 50px 0px;
+    padding: 10vh 0px;
 }
 
 .slider_container{
@@ -190,7 +186,6 @@ a {
     grid-row: 1/2;
     opacity: 0;
     pointer-events: none;
-    background-color: #fff;
     transition: opacity 1.5s;
     position: relative; 
     z-index: 0;
@@ -285,7 +280,7 @@ a {
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: 9px 15px;
+    padding: 1vh 15px;
     font-size:12px;
     max-width: 745px;
 }
@@ -295,7 +290,6 @@ a {
     border-top-width: 1.5px;
     max-width: 100%;
     height: auto;
-    padding: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -335,7 +329,7 @@ a {
     .nav{
         --state-hamburguer:scale(0);
         --state-menu: translate(0);
-        position: fixed;
+        position: sticky;
     }
     
     .nav:target{
@@ -364,9 +358,9 @@ a {
         grid-row: 1/2;
     }
     
-.nav__item{
-    font-size: 1.15rem;
-}
+    .nav__item{
+        font-size: 1.15rem;
+    }
 
     .nav__link{
         font-size: 1.12rem;
@@ -376,7 +370,11 @@ a {
 
     .acento{
         visibility: unset;
-        max-width: 50px;
+        position: absolute;
+        top: 0;
+        height: 50px;
+        width: 3px;
+        background-color: #460be6;
     }
     
     .slider_container{
