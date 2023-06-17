@@ -6,7 +6,7 @@
    version="1.1"
    id="svg4"
    sodipodi:docname="menu.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,10 +24,10 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="true"
      inkscape:zoom="19.666666"
-     inkscape:cx="19.525424"
+     inkscape:cx="5.5423731"
      inkscape:cy="15.20339"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="1192"
      inkscape:window-maximized="1"
@@ -37,15 +37,15 @@
        id="grid411" />
   </sodipodi:namedview>
   <path
-     style="fill:#302747;fill-opacity:1;stroke-width:1.06904"
+     style="fill:#616161;fill-opacity:1;stroke-width:1.06904"
      d="m 8,20 h 16 v 2 H 8 Z"
      id="path395" />
   <path
-     style="fill:#302747;fill-opacity:1;stroke-width:1.18321"
+     style="fill:#616161;fill-opacity:1;stroke-width:1.18321"
      d="m 11,14 h 14 v 2 H 11 Z"
      id="path393" />
   <path
-     style="fill:#302747;fill-opacity:1;stroke-width:1.25"
+     style="fill:#616161;fill-opacity:1;stroke-width:1.25"
      d="m 4,8 h 20 v 2 H 4 Z"
      id="path2" />
 </svg>
