@@ -1,0 +1,24 @@
+
+.BodyText {
+    color: #858585;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1.1vh 15px 3vh;
+    max-width: 650px;
+    font-size: 0.82rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    
+}
+.tt_text {
+    color: #9e9eff;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+#void1 {
+    padding: 1rem;
+    min-height: 2rem;
+}
