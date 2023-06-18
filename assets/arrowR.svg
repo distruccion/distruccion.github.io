@@ -8,7 +8,7 @@
    version="1.1"
    id="svg474"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="arrowR.svg"
+   sodipodi:docname="arrowR_h.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="9.5144352"
-     inkscape:cx="-23.017656"
+     inkscape:cx="-10.300138"
      inkscape:cy="27.537105"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
@@ -41,7 +41,7 @@
      id="layer1">
     <path
        d="M 4.0878309,13.22915 H 0 V 0 h 4.0878309 z"
-       style="display:inline;fill:#5d5df2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0649389"
+       style="display:inline;fill:#9e9eff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0649389"
        id="path14" />
     <g
        id="g20"
