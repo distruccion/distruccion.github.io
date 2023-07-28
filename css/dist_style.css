@@ -126,7 +126,7 @@ a {
 .nav__link_active{
     color: #5c5cf2;
     text-decoration: none;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.7px;
     padding: 2px 3px;
     border-bottom-style: solid;
     border-bottom-width: 2px;
@@ -368,7 +368,7 @@ a {
 
     .nav__link{
         font-size: 0.97rem;
-        letter-spacing: 1.2px;
+        letter-spacing: 0.7px;
     }
 
 
