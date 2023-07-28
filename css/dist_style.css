@@ -111,7 +111,7 @@ a {
 .nav__link{
     color: #616161;
     text-decoration: none;
-    letter-spacing: 0.7px;
+    letter-spacing: 0.5px;
     padding: 2px 3px;
     transition: color .3s;
     transition: border .1s;
@@ -126,7 +126,7 @@ a {
 .nav__link_active{
     color: #5c5cf2;
     text-decoration: none;
-    letter-spacing: 0.7px;
+    letter-spacing: 0.5px;
     padding: 2px 3px;
     border-bottom-style: solid;
     border-bottom-width: 2px;
@@ -367,8 +367,8 @@ a {
     }
 
     .nav__link{
-        font-size: 0.97rem;
-        letter-spacing: 0.7px;
+        font-size: 1.0rem;
+        letter-spacing: 0.5px;
     }
 
 
