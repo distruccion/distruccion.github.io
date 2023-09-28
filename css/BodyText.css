@@ -1,4 +1,3 @@
-
 .BodyText {
     color: #858585;
     display: grid;
@@ -10,7 +9,7 @@
     font-size: 0.82rem;
     text-align: start;
     line-height: 1.5rem;
-    
+
 }
 .tt_text {
     color: #9e9eff;
@@ -23,7 +22,7 @@
     min-height: 2rem;
 }
 .contact{
-    color: #636363;
+    color: #616161;
     font-size: 1.2rem;
     font-weight: lighter;
 }

@@ -28,7 +28,7 @@ a {
 
 .nav{
     --state-close: scale(0);
-    --state-hamburguer:scale(1);
+    --state-hamburguer: scale(1);
     --state-menu: translate(-100%);
 
     padding: 0 0;
@@ -44,8 +44,8 @@ a {
 }
 
 .nav:target{
-    --state-menu: translate(0);
     --state-close: scale(1);
+    --state-menu: translate(0);
     --state-hamburguer:scale(0);
     position: unset;
 }
@@ -144,7 +144,7 @@ a {
 
 /*silder*/
 .container_s{
-    width:97%;
+    width: 97%;
     /*min-height:  80vh;*/
     min-height:  100%;
     max-width: 650px;
@@ -155,7 +155,7 @@ a {
 }
 
 .container_cons{
-    width:97%;
+    width: 97%;
     /*min-height:  80vh;*/
     min-height:  100%;
     max-width: 400px;
@@ -229,7 +229,7 @@ a {
     color: #5c5cf2;
     width: 100%;
     transition: .5s ease;
-    opacity:0;
+    opacity: 0;
     font-size: 15px;
     padding: 20px;
     text-align: center;
@@ -331,37 +331,37 @@ a {
 
 @media  (min-width:768px), (prefers-reduced-motion: reduce){
     .nav{
-        --state-hamburguer:scale(0);
+        --state-hamburguer: scale(0);
         --state-menu: translate(0);
         position: sticky;
     }
-    
+
     .nav:target{
         --state-close: scale(0);
     }
-    
+
     .nav__logo{
             height: 50px;
     }
-    
+
     .logo{
             height: 50px;
     }
-    
+
     .nav__links{
         padding: 0;
-    
+
         background-color: unset;
         position: unset;
         gap: 1.6em;
         grid-auto-flow: column;
-    
+
         transform: unset;
-    
+
         grid-column: -2/-1;
         grid-row: 1/2;
     }
-    
+
     .nav__item{
         font-size: 1.0rem;
     }
@@ -380,11 +380,11 @@ a {
         width: 3px;
         background-color: #9e9eff;
     }
-    
+
     .slider_container{
         grid-template-columns: 15.45px 1fr 15.45px;
     }
-    
+
     .arrow{
         /*cursor: pointer;*/
         height: 50px;
